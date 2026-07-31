@@ -1,4 +1,4 @@
-const estante = require("./estante");
+const estante = require('"d:/Paiva/2ºSEM/PBE1/AULA1/1-ambiente-node/Atividade1-MinhaEstante./estante.js"');
 
 console.log("=====================");
 console.log("    MINHA ESTANTE    ");
