@@ -1,4 +1,4 @@
-// ===== LIVRO 1 
+// ===== LIVRO 1
 const livro1 = {
   titulo: "Clean Code",
   autor: "Robert C. Martin",
@@ -14,5 +14,13 @@ const livro2 = {
   estoque: 5
 };
 
-// Exporta os livros para que outros arquivos possam usar
-module.exports = { livro1, livro2 };
+// ===== LIVRO 3 (Seu novo livro)
+const livro3 = {
+  titulo: "O Menino, a Toupeira, a Raposa e o Cavalo",
+  autor: "Charlie Mackesy",
+  preco: 49.9,
+  estoque: 7
+};
+
+// Exporta os três livros
+module.exports = { livro1, livro2, livro3 };
